@@ -1,7 +1,24 @@
 @tailwind base;
 @tailwind components;
+
+.menu-action {
+	color: #81D0D1;
+	font-weight: bold;
+	border-bottom: 1px solid;
+}
+.header-ellipse {
+	background: 
+		linear-gradient(158.2deg, rgba(244, 226, 61, 0.61) 34.15%,
+		rgba(44, 219, 243, 0.23) 90.25%);
+}
+.h-not-menu {
+	height: calc(100vh - 70px);
+}
+.header {
+	background: url("./src/assets/header.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: auto 100%;
+}
 @tailwind utilities;
 
-a {
-  @apply text-blue-500 hover:text-blue-400 hover:underline transition-all;
-}
